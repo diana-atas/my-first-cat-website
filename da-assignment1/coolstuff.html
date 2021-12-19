@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>More Cool Cat Stuff</title>
+    <link rel="stylesheet" type="text/css" href="catstyles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Miltonian+Tattoo&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="grid">
+        <header class="header">
+            <h1>Our Furry Feline Friends</h1>
+        </header>
+
+        <div class="navbox">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="bigcats.html">Big Cats</a></li>
+                    <li><a href="catstats.html">Cat Stats</a></li>
+                    <li><a class="active" href="coolstuff.html">More Cool Cat Stuff</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="extrabox1">
+            <section>
+                <h2>How old is your cat in human years?</h2>
+                <p>Enter your cat's age in cat years here</p>
+                <input type="number" id="ageyears" min="0" max="100">
+                <label for="ageyears"> year(s)</label>
+                <input type="number" id="agemonths" min="0" max="12">
+                <label for="agemonths"> month(s)</label>
+                <button id="catage" class="mybutton">Click to calculate age</button>
+
+                <p id="yourcatage"></p>
+                <p id="lifestage"></p>
+            </section>
+        </div>
+
+        <div class="extrabox2">
+            <img id="lifestageimage" src="images/blackbox.jpg" alt="an image of a cat in each life stage i.e., Kitten, Junior, Adult and Senior" class="imgfit" />
+        </div>
+
+        <div class="mainbox2">
+            <a href="https://en.wikipedia.org/wiki/Creme_Puff_(cat)" >
+                <img class="imgfit" src="images/cremepuff.jpg" alt="a photo of Creme Puff, the oldest cat ever recorded" style="float:left;margin:10px;" />
+            </a>
+            
+            <h2>Creme Puff (cat)</h2>
+            <blockquote cite="https://en.wikipedia.org/wiki/Creme_Puff_(cat)">
+                <p><strong>Creme Puff</strong> (August 3, 1967 – August 6, 2005) was a domestic cat, owned by Jake Perry of Austin, Texas, US. She was the oldest cat ever recorded, according to the 2010 edition of Guinness World Records, when she died aged 38 years and 3 days.</p>
+                <p>Creme Puff's owner, Jake Perry, said her diet consisted of dry cat food supplemented with broccoli, eggs, turkey bacon, coffee with cream, and—every two days—"an eyedropper full of red wine." Perry claimed that this diet was key to her longevity, and that the wine "circulate the arteries."</p>
+                <p>Perry also kept Creme Puff very active within the home, turning his garage into a movie theater that played nature documentaries for his cats. Wooden steps were built into the walls of Perry's home for the cats to climb on, and Perry had built a screened enclosure in his backyard for his pets, including Creme Puff, to enjoy the outdoors.</p>
+            </blockquote>
+        </div>
+        
+
+        <div class="footerbox">
+            <footer class="bottomleft">
+                <ul>
+                    <li>Excerpt from <cite><a href="https://en.wikipedia.org/wiki/Creme_Puff_(cat)">Wikipedia</a></cite></li>
+                    <li>Cat Age Converter was created based on the Cat Age Chart in the <a href="https://www.pumpkin.care/blog/cat-age-chart/">Pumpkin Pet Insurance website</a></li>
+                </ul>
+            </footer>
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
