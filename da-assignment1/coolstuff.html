@@ -8,7 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Miltonian+Tattoo&display=swap" rel="stylesheet">
-
+    <!-- Script tags should be in the head -->
+    <script src="main.js"></script>
 </head>
 
 <body>
@@ -38,7 +39,8 @@
                 <label for="ageyears"> year(s)</label>
                 <input type="number" id="agemonths" min="0" max="12">
                 <label for="agemonths"> month(s)</label>
-                <button id="catage" class="mybutton">Click to calculate age</button>
+                <!-- You can specify the onclick here instead of in JavaScript -->
+                <button id="catage" class="mybutton" onclick="calculateAge();">Click to calculate age</button>
 
                 <p id="yourcatage"></p>
                 <p id="lifestage"></p>
@@ -73,8 +75,5 @@
         </div>
 
     </div>
-
-    <script src="main.js"></script>
-
 </body>
 </html>
